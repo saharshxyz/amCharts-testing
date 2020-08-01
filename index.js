@@ -1,8 +1,8 @@
 // Create chart instance
-var chart = am4core.create("chartdiv", am4charts.PieChart);
+const chart = am4core.create("chartdiv", am4charts.PieChart);
 
 // Create pie series
-var series = chart.series.push(new am4charts.PieSeries());
+const series = chart.series.push(new am4charts.PieSeries());
 series.dataFields.value = "litres";
 series.dataFields.category = "country";
 
