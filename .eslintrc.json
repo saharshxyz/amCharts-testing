@@ -18,7 +18,8 @@
     "class-methods-use-this": "warn",
     "import/no-extraneous-dependencies": "warn",
     "consistent-return": "off",
-    "no-param-reassign": "warn"
+    "no-param-reassign": "warn",
+    "no-undef": "off"
   },
   "parserOptions": {
     "sourceType": "module"
